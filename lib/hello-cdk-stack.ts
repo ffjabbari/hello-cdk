@@ -5,7 +5,7 @@ export class HelloCdkStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    new s3.Bucket(this, 'MyFirstBucket', {
+    new s3.Bucket(this, 'MyFirstBucketffjabbari003', {
       versioned: true
     });
   }
